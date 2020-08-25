@@ -14,9 +14,7 @@ Files:
 		- Due to time constraints, it is likely simpler than what you would've wanted.
 		- The file prints out a name and then on the next line informs the user of how many
 		 characters that name consists of. Note that this includes spaces and such things.
-		- The file's output also changes depending on how large or small a time argument you
-		 gave the program. The larger the time, the more of the sentence and name you see. The
-		 less time, the less of the name and sentence you see.
+		- The file's output also changes depending on how large or small a time argument you gave the program. The larger the time, the more of the sentence and name you see. The less time, the less of the name and sentence you see.
 
 	CompileAndExecute.sh
 		- This is a shell file for compiling main.cpp and removing files with '~' in their name.
