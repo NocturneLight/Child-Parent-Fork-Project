@@ -1,18 +1,13 @@
 Files:
 	main.cpp
 		- This is the main file. It contains two objects: Memory, which houses the user's program, and CPU, which executes the program.
-		- A pipe and fork is called for parsing command line arguments and handing the user's program to Memory. A second pipe and fork
- 		 then is called to take that Memory and execute the user's program.
+		- A pipe and fork is called for parsing command line arguments and handing the user's program to Memory. A second pipe and fork then is called to take that Memory and execute the user's program.
 		- If you your third argument is not a valid number, an error will be thrown at you and you will have to start over.
 		- If you input 0 for your third argument, the program will run but you will most likely see little to nothing happen on
 		 screen.
-		- When the program finishes executing, on the command line it will look like the program is expecting input from you. This
-		 is not the case. It's just a quirk in the programming caused by doing a fork and pipe inside of a child process. You can press
-		 enter and everything will look normal again, or you can run the program right then and there. The program has ended and you will
-		 be able to run it again regardless.
+		- When the program finishes executing, on the command line it will look like the program is expecting input from you. This is not the case. It's just a quirk in the programming caused by doing a fork and pipe inside of a child process. You can press enter and everything will look normal again, or you can run the program right then and there. The program has ended and you will be able to run it again regardless.
 		HOW TO RUN:
-		    To run the program, simply type in "main.cpp sample5.txt 500". If you do not have 3 arguments, an error will be thrown
-                    at you and you will have to start over.
+		    To run the program, simply type in "main.cpp sample5.txt 500". If you do not have 3 arguments, an error will be thrown at you and you will have to start over.
 
 	sample5.txt
 		- My custom file for this project.
