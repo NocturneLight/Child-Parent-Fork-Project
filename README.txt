@@ -22,3 +22,6 @@ Files:
 
 	The other files
 	    	- Ignore them. They're trash files I can't remove for one reason or another.
+
+
+NOTE: Only works in Unix environments!
